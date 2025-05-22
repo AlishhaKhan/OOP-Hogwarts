@@ -2,12 +2,12 @@
 
 # Streamlit UI Logic (Abstraction, Instantiation, Callable Objects etc.)
 
+from PIL import Image
 import streamlit as st
 from classes.student import Student
 from classes.teacher import Teacher
 from classes.classroom import Classroom
 from utils.helpers import load_students, save_students
-from PIL import Image
 import os
 
 # Page Config
