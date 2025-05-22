@@ -7,11 +7,15 @@ from classes.student import Student
 from classes.teacher import Teacher
 from classes.classroom import Classroom
 from utils.helpers import load_students, save_students
+from PIL import Image
+import os
 
 # Page Config
 st.set_page_config(page_title="OOP Hogwarts", layout="centered")
 
 # Add Hogwarts Banner Image
+img_path = os.path.join("assets", "hogwart_magic.png")
+image = Image.open(img_path)
 st.image("assets/hogwart_magic.png", use_container_width=True)
 
 # Title Section
