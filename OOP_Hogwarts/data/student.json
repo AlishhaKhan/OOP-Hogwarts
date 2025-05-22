@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Harry Potter",
+        "house": "Gryffindor",
+        "marks": 85
+    },
+    {
+        "name": "Draco Malfoy",
+        "house": "Slytherin",
+        "marks": 75
+    }
+]
